@@ -1,6 +1,6 @@
 import { isSupabaseConfigured, supabase } from './supabaseClient'
 
-const recipeListColumns = 'id,title,cuisine,meal_type,created_at,upvotes'
+const recipeListColumns = 'id,title,image_url,cuisine,meal_type,created_at,upvotes'
 
 const recipeDetailColumns = `
   id,
